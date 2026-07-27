@@ -1,7 +1,29 @@
 aid: inviscid-ai
-name: Inviscid Ai
-description: Inviscid Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inviscid-ai.png
+name: Inviscid AI
+description: >-
+  Inviscid AI is a San Francisco-based startup (Y Combinator W2026) building
+  physics-informed AI for real-time cooling and airflow simulation of buildings
+  and industrial facilities. Its platform combines computational fluid dynamics
+  (CFD) with physics-informed neural networks to run thermal digital twins up to
+  1000x faster than traditional CFD, ingesting live data from building management
+  systems, meters, and IoT sensors to autonomously recommend HVAC setpoints and
+  optimize airflow. Target facilities include data centers, offices, hospitals,
+  and cold storage, where the company claims 30%+ energy savings and sub-90-day
+  ROI. As of mid-2026 Inviscid AI is a pre-product-launch company with no public
+  developer portal, API, SDKs, or OpenAPI surface; this profile tracks it as an
+  API Evangelist network lead pending an external API.
 url: https://raw.githubusercontent.com/api-evangelist/inviscid-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Simulation
+- Digital Twin
+- HVAC
+- Energy
+- Data Centers
+- Sustainability
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/inviscid-ai-domain-security.yml
+- type: Website
+  url: https://inviscidai.com/
+- type: Company
+  url: https://www.ycombinator.com/companies/inviscid-ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/inviscid-ai/
+- type: Twitter
+  url: https://x.com/InviscidAI
+- type: Support
+  url: https://inviscidai.com/#contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
