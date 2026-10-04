@@ -52,7 +52,7 @@ tags:
 - Digital Twin
 - HVAC
 - Energy
-- Data-Center
+- Data Center
 - Sustainability
 - IoT
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Data Centers
 - Sustainability
 - IoT
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
